@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="regression">
+<test name ="loginpage testing">
+
+<parameter name ="username" value = "demo@techfios.com"/>
+<parameter name = "password" value = "abc123"/>
+<parameter name = "fullName" value = "M.Alain"/>
+<parameter name = "companyName" value = "Alain.inc"/>
+<parameter name = "email" value = "M.alain@techfios.com"/>
+<parameter name = "phone" value = "0987654321"/>
+<parameter name = "address" value = "northdallas"/>
+<parameter name = "city" value = "carrollton"/>
+<parameter name = "state" value = "Texas"/>
+<parameter name = "Zip" value = "00000"/>
+
+
+
+<classes>
+
+<class name = "all_tests.Add_customer_testing"/>
+
+
+</classes>
+
+</test>
+</suite>
